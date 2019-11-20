@@ -13,6 +13,6 @@ button.addEventListener('click', () => {
         console.log(error)
       })
   } else {
-    console.log('Feature not available, please copy manually!')
+    alert('Feature not available, please copy manually!')
   }
 })
